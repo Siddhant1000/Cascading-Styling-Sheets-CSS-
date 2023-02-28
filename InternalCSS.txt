@@ -1,0 +1,21 @@
+<!DOCTYPE html>  <!---CSS is used for decorative purpose-->
+<html>
+    <head>
+        <title>Internal CSS</title>
+        <style>
+            p
+            {
+                color:green;
+                font-size:200%;
+
+            }
+
+        </style>
+
+    </head>
+    <body>
+        <p> This is my paragraph to demonstrate inline CSS </p>
+        <p>This is second paragraph</p>
+        
+    </body>
+</html>

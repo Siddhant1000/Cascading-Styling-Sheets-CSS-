@@ -1,0 +1,13 @@
+<!DOCTYPE html>  <!---CSS is used for decorative purpose-->
+<html>
+    <head>
+        <title>External CSS</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        
+    </head>
+    <body>
+        <p> This is my paragraph to demonstrate inline CSS </p>
+        <p>This is second paragraph</p>
+        
+    </body>
+</html>

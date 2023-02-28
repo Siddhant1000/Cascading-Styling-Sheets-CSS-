@@ -1,0 +1,11 @@
+<!DOCTYPE html>  <!---CSS is used for decorative purpose-->
+<html>
+    <head>
+        <title>Inline CSS</title>
+
+    </head>
+    <body>
+        <p style="color : purple ; font-size:400%;"> This is my paragraph to demonstrate inline CSS </p>
+        
+    </body>
+</html>

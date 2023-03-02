@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Box Model Margin</title>
+        <style>
+     
+            .del
+            {
+                background-color:blue;
+                color:white;
+                height:auto;
+                width:auto; 
+                padding:15px;
+                border:10px #30e490 ridge;  
+                margin:10px;
+                
+
+            }
+    
+            .mum
+            {
+                background-color:	#ff6666;
+                color:white;
+                height:auto;
+                width:auto;
+                padding: 20px 10px 5px 25px;
+                border-width:20px 15px 10px 5px;
+                border-color: #9322df gold green orange;
+                border-style: groove;
+                margin:40px 20px 15px 5px;
+            }
+
+            .bgl
+            {
+                background-color: blueviolet;
+                color:white;
+                height:auto;
+                width:100px;    
+                padding: 20px 10px ;
+                border-width: 20px 10px ;
+                border-color: brown;
+                border-style: dotted;
+                border-radius: 60px;
+                outline-width: thick;
+                outline-color:orange;
+                outline-style: solid ;
+                margin:20px 10px;
+            }
+            p
+            {
+                background-color: orange;
+            }
+            
+
+            
+        </style>
+
+    </head>
+    <body>
+        <div class="del">
+            <p>Delhi</p>
+        <div>
+        <div class="mum">
+            <p>Mumbai</p>
+        </div>
+        <div class="bgl">
+            <p>Bangalore</p>
+        </div>
+    </body>
+</html>

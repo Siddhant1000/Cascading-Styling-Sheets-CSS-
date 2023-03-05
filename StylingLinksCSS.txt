@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Styling List</title>
+
+
+        </head>
+
+        <style>
+            ul.l1
+            {
+                /* list-style: upper-roman; */
+                list-style-image: url(image/checkbox.png);
+            }
+            ul.l2
+            {
+                list-style: none;
+                padding: 0px;
+                margin:0px;
+            }
+            ul.l2 li
+            {
+                background-image: url(image/nathan-anderson-iYO-EGosrCo-unsplash.jpg);
+                background-repeat: no-repeat    ;
+                background-position: 0px center;
+                padding-left: 30px;
+                
+            }
+        </style>
+    </head>
+    <body>
+        
+        <p>Here is list of States of India</p>
+        <ul class="l1">
+            <li>Himachal Pradesh</li>
+            <li>Punjab</li>
+            <li>Harayana</li>
+        </ul>
+
+        
+        <p>Here is the list of states of capital</p>
+        <ul class="l2">
+            <li>Shim</li>
+            <li>Chandigarh</li>
+            <li>Lucknow</li>
+        </ul>
+    </body>
+</html>

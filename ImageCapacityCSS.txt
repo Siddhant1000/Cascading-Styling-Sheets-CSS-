@@ -1,0 +1,5 @@
+
+                width: 1112px;
+                height: 832px;
+                background: url(image/nathan-anderson-iYO-EGosrCo-unsplash.jpg)     -1236px -2383px;
+            }

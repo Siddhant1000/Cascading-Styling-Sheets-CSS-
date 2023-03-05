@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Image Sprite</title>
+        <style>
+            #image
+            {
+                width: 1112px;
+                height: 832px;
+                background: url(image/nathan-anderson-iYO-EGosrCo-unsplash.jpg)     -1236px -2383px;
+            }
+
+
+
+        </style>
+    </head>
+    <body>
+        <img id="image">
+    
+    </body>
+</html>

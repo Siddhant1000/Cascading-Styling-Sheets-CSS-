@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Gradient</title>
+        <style>
+            .del
+            {
+                /* background-color:blue; */
+                color:white;
+                height:100px;
+                width:auto;
+                /* background: linear-gradient( to left, blue,white,red); */
+                /*background: linear-gradient( to bottom left, blue,white,red); */
+                /*background: linear-gradient( 90deg, blue,white,red);*/
+                /*background: linear-gradient(to left,rgba(0,0,255,0),rgba(0,0,255,1));*/
+                /*background: radial-gradient(blue,white,orange);*/
+                /*background: radial-gradient(blue 5%,white 15%,orange 80%);*/
+                background: radial-gradient( circle, blue 5%,white 15%,orange 80%);
+
+
+
+                
+            }
+            .mum
+            {
+                background-color:	#ff6666;
+                color:white;
+                height:100px;
+                width:auto;
+            }
+
+            .bgl
+            {
+                background-color: blueviolet;
+                color:white;
+                height:100px;
+                width:auto;
+            }
+            .cap
+            {
+                background-color: white;
+                color:black;
+            }
+
+            
+        </style>
+
+    </head>
+    <body>
+        <div class="del">Delhi is <span class="cap">Capital</span></div>
+        <div class="mum">Mumbai</div>
+        <div class="bgl">Bangalore</div>
+    </body>
+</html>

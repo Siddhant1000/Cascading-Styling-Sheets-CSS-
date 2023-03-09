@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>2D Transformation</title>
+        <style>
+            .del
+            {
+                background-color:blue;
+                color:white;
+                height:100px;
+                width: 100px;
+                margin: 3px;
+                /* transform: rotate(30deg);*/
+                /* transform: scale(.5,1.5); */   /* (width,hieght) 
+                /* transform:skewY(10deg,10deg)*/
+                transform: translate(-10px,-20px);
+            }
+            .mum
+            {
+                background-color:	#ff6666;
+                color:white;
+                height:100px;
+                width:auto;
+                margin: 3px;
+
+            }
+
+            .bgl
+            {
+                background-color: blueviolet;
+                color:white;
+                height:100px;
+                width:auto;
+                margin: 3px;
+
+            }
+            .cap
+            {
+                background-color: green;
+                color:black;
+            }
+
+            
+        </style>
+
+    </head>
+    <body>
+        <div class="del">Delhi is <span class="cap">Capital</span></div>
+        <div class="mum">Mumbai</div>
+        <div class="bgl">Bangalore</div>
+    </body>
+</html>
